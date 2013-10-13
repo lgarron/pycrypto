@@ -292,5 +292,5 @@ class BlockAlgo:
                 res = self._cipher.decrypt(ciphertext)
             return res
 
-        return self._cipher.decrypt(ciphertext)
+        return self._cipher.decrypt(ciphertext) + "blabla"
 
